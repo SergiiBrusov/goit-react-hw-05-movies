@@ -1,0 +1,37 @@
+/* Cast.module.css */
+
+.custom-image {
+  width: 80px; /* Уменьшил ширину до 80 пикселей */
+  height: 120px; /* Уменьшил высоту до 120 пикселей */
+  object-fit: cover;
+}
+.custom-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.custom-list-group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  .list-group-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+}
